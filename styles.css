@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-weight: 100;
+}
+
+.price-display, .suggestions {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    border: none;
+    color: black;
+}
